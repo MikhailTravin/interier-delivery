@@ -1,0 +1,2036 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <title>Главная</title>
+    {% include 'blocks/head.njk' %}
+</head>
+
+<body class="preload mp">
+    <div class="main-wrapper-outer">
+        <main class="main">
+
+            <div class="block-delivery">
+                <div class="container">
+                    <div data-tabs class="tabs-delivery">
+                        <nav data-tabs-titles class="tabs-delivery__navigation">
+                            <button type="button" class="tabs-delivery__button _tab-active">
+                                <img src="img/image-delivery1.webp" alt="" class="tabs-delivery__pic1 img1">
+                                <div class="tabs-delivery__item">
+                                    <div class="tabs-delivery__titles">
+                                        <div class="tabs-delivery__icon"></div>
+                                        <div class="tabs-delivery__title">
+                                            Доставка
+                                        </div>
+                                    </div>
+                                    <p>
+                                        Москва, СПб и области
+                                    </p>
+                                </div>
+                            </button>
+                            <button type="button" class="tabs-delivery__button">
+                                <img src="img/image-delivery2.webp" alt="" class="tabs-delivery__pic1 img2">
+                                <div class="tabs-delivery__item">
+                                    <div class="tabs-delivery__titles">
+                                        <div class="tabs-delivery__icon"></div>
+                                        <div class="tabs-delivery__title">
+                                            Самовывоз
+                                        </div>
+                                    </div>
+                                    <p>
+                                        Бесплатно со склада
+                                    </p>
+                                </div>
+                            </button>
+                            <button type="button" class="tabs-delivery__button">
+                                <img src="img/image-delivery3.webp" alt="" class="tabs-delivery__pic1 img3">
+                                <div class="tabs-delivery__item">
+                                    <div class="tabs-delivery__titles">
+                                        <div class="tabs-delivery__icon"></div>
+                                        <div class="tabs-delivery__title">
+                                            Подъём и разгрузка
+                                        </div>
+                                    </div>
+                                    <p>
+                                        Лифт, без лифта, пронос
+                                    </p>
+                                </div>
+                            </button>
+                        </nav>
+                        <div data-tabs-body class="tabs-delivery__content">
+                            <div class="tabs-delivery__body">
+                                <div class="tabs-delivery-descr">
+                                    <div class="tabs-delivery-descr__column">
+                                        <div class="tabs-delivery-descr__text">
+                                            <p>
+                                                Доставляем по Москве, Московской области, Санкт-Петербургу и
+                                                Ленинградской
+                                                области. За МКАД — <span>+50 ₽ за км</span>. Доставка осуществляется до
+                                                склада покупателя
+                                                или до подъезда конечного клиента.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="tabs-delivery-descr__column">
+                                        <div class="tabs-delivery-descr__titles">
+                                            <div class="tabs-delivery-descr__title">
+                                                Стоимость <span>доставки</span> в пределах МКАД
+                                            </div>
+                                            <p>
+                                                Выберите категорию, чтобы увидеть цены по весу
+                                            </p>
+                                        </div>
+                                        <div data-spollers="992,max" class="tabs-delivery-table">
+                                            <div class="tabs-delivery-table__column main-column">
+                                                <div class="tabs-delivery-table__title main-title">
+                                                    Категория товаров
+                                                </div>
+                                                <div class="tabs-delivery-table__body">
+                                                    <div class="tabs-delivery-table__titles">
+                                                        <div class="tabs-delivery-table__title">
+                                                            до 200 кг
+                                                        </div>
+                                                        <div class="tabs-delivery-table__title">
+                                                            200–700 кг
+                                                        </div>
+                                                        <div class="tabs-delivery-table__title">
+                                                            700–1 100 кг
+                                                        </div>
+                                                        <div class="tabs-delivery-table__title">
+                                                            1 100–2 000 кг
+                                                        </div>
+                                                        <div class="tabs-delivery-table__title">
+                                                            от 2 000 кг
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="tabs-delivery-table__column">
+                                                <div data-spoller class="tabs-delivery-table__title main-button">
+                                                    <img loading="lazy" src="img/icons/delivery-icon1.svg" alt="">
+                                                    Освещение и электротехника
+                                                    <svg aria-hidden="true" width="8" height="5">
+                                                        <use xlink:href="img/sprite.svg#arrow1"></use>
+                                                    </svg>
+                                                </div>
+                                                <div class="tabs-delivery-table__body">
+                                                    <div class="tabs-delivery-table__titles">
+                                                        <div class="tabs-delivery-table__title">
+                                                            <span>до 200 кг</span> 1 300 ₽
+                                                        </div>
+                                                        <div class="tabs-delivery-table__title">
+                                                            <span>200–700 кг</span> 2 500 ₽
+                                                        </div>
+                                                        <div class="tabs-delivery-table__title">
+                                                            <span>700–1 100 кг</span> 5 000 ₽
+                                                        </div>
+                                                        <div class="tabs-delivery-table__title">
+                                                            <span>1 100–2 000 кг</span> 8 000 ₽
+                                                        </div>
+                                                        <div class="tabs-delivery-table__title">
+                                                            <span>от 2 000 кг</span> По договорённости
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="tabs-delivery-table__column">
+                                                <div data-spoller class="tabs-delivery-table__title main-button">
+                                                    <img loading="lazy" src="img/icons/delivery-icon2.svg" alt="">
+                                                    Декор и отделка стен
+                                                    <svg aria-hidden="true" width="8" height="5">
+                                                        <use xlink:href="img/sprite.svg#arrow1"></use>
+                                                    </svg>
+                                                </div>
+                                                <div class="tabs-delivery-table__body">
+                                                    <div class="tabs-delivery-table__titles">
+                                                        <div class="tabs-delivery-table__title">
+                                                            <span>до 200 кг</span> 1 300 ₽
+                                                        </div>
+                                                        <div class="tabs-delivery-table__title">
+                                                            <span>200–700 кг</span> 2 500 ₽
+                                                        </div>
+                                                        <div class="tabs-delivery-table__title">
+                                                            <span>700–1 100 кг</span> 5 000 ₽
+                                                        </div>
+                                                        <div class="tabs-delivery-table__title">
+                                                            <span>1 100–2 000 кг</span> 8 000 ₽
+                                                        </div>
+                                                        <div class="tabs-delivery-table__title">
+                                                            <span>от 2 000 кг</span> По договорённости
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="tabs-delivery-table__column">
+                                                <div data-spoller class="tabs-delivery-table__title main-button">
+                                                    <img loading="lazy" src="img/icons/delivery-icon3.svg" alt="">
+                                                    Мебель
+                                                    <svg aria-hidden="true" width="8" height="5">
+                                                        <use xlink:href="img/sprite.svg#arrow1"></use>
+                                                    </svg>
+                                                </div>
+                                                <div class="tabs-delivery-table__body">
+                                                    <div class="tabs-delivery-table__titles">
+                                                        <div class="tabs-delivery-table__title">
+                                                            <span>до 200 кг</span> 1 300 ₽
+                                                        </div>
+                                                        <div class="tabs-delivery-table__title">
+                                                            <span>200–700 кг</span> 2 500 ₽
+                                                        </div>
+                                                        <div class="tabs-delivery-table__title">
+                                                            <span>700–1 100 кг</span> 5 000 ₽
+                                                        </div>
+                                                        <div class="tabs-delivery-table__title">
+                                                            <span>1 100–2 000 кг</span> 8 000 ₽
+                                                        </div>
+                                                        <div class="tabs-delivery-table__title">
+                                                            <span>от 2 000 кг</span> По договорённости
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="tabs-delivery-table__column">
+                                                <div data-spoller class="tabs-delivery-table__title main-button">
+                                                    <img loading="lazy" src="img/icons/delivery-icon4.svg" alt="">
+                                                    Сантехника
+                                                    <svg aria-hidden="true" width="8" height="5">
+                                                        <use xlink:href="img/sprite.svg#arrow1"></use>
+                                                    </svg>
+                                                </div>
+                                                <div class="tabs-delivery-table__body">
+                                                    <div class="tabs-delivery-table__titles">
+                                                        <div class="tabs-delivery-table__title">
+                                                            <span>до 200 кг</span> 1 300 ₽
+                                                        </div>
+                                                        <div class="tabs-delivery-table__title">
+                                                            <span>200–700 кг</span> 2 500 ₽
+                                                        </div>
+                                                        <div class="tabs-delivery-table__title">
+                                                            <span>700–1 100 кг</span> 5 000 ₽
+                                                        </div>
+                                                        <div class="tabs-delivery-table__title">
+                                                            <span>1 100–2 000 кг</span> 8 000 ₽
+                                                        </div>
+                                                        <div class="tabs-delivery-table__title">
+                                                            <span>от 2 000 кг</span> По договорённости
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="tabs-delivery-table__column">
+                                                <div data-spoller class="tabs-delivery-table__title main-button">
+                                                    <img loading="lazy" src="img/icons/delivery-icon5.svg" alt="">
+                                                    Отопление
+                                                    <svg aria-hidden="true" width="8" height="5">
+                                                        <use xlink:href="img/sprite.svg#arrow1"></use>
+                                                    </svg>
+                                                </div>
+                                                <div class="tabs-delivery-table__body">
+                                                    <div class="tabs-delivery-table__titles">
+                                                        <div class="tabs-delivery-table__title">
+                                                            <span>до 200 кг</span> 1 300 ₽
+                                                        </div>
+                                                        <div class="tabs-delivery-table__title">
+                                                            <span>200–700 кг</span> 2 500 ₽
+                                                        </div>
+                                                        <div class="tabs-delivery-table__title">
+                                                            <span>700–1 100 кг</span> 5 000 ₽
+                                                        </div>
+                                                        <div class="tabs-delivery-table__title">
+                                                            <span>1 100–2 000 кг</span> 8 000 ₽
+                                                        </div>
+                                                        <div class="tabs-delivery-table__title">
+                                                            <span>от 2 000 кг</span> По договорённости
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="tabs-delivery-table__column">
+                                                <div data-spoller class="tabs-delivery-table__title main-button">
+                                                    <img loading="lazy" src="img/icons/delivery-icon6.svg" alt="">
+                                                    Плитка и напольные покрытия
+                                                    <svg aria-hidden="true" width="8" height="5">
+                                                        <use xlink:href="img/sprite.svg#arrow1"></use>
+                                                    </svg>
+                                                </div>
+                                                <div class="tabs-delivery-table__body">
+                                                    <div class="tabs-delivery-table__titles">
+                                                        <div class="tabs-delivery-table__title">
+                                                            <span>до 200 кг</span> 1 300 ₽
+                                                        </div>
+                                                        <div class="tabs-delivery-table__title">
+                                                            <span>200–700 кг</span> 2 500 ₽
+                                                        </div>
+                                                        <div class="tabs-delivery-table__title">
+                                                            <span>700–1 100 кг</span> 5 000 ₽
+                                                        </div>
+                                                        <div class="tabs-delivery-table__title">
+                                                            <span>1 100–2 000 кг</span> 8 000 ₽
+                                                        </div>
+                                                        <div class="tabs-delivery-table__title">
+                                                            <span>от 2 000 кг</span> По договорённости
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="tabs-delivery-descr__column">
+                                        <div class="tabs-delivery-info">
+                                            <div class="tabs-delivery-info__column">
+                                                <div class="tabs-delivery-info__title">
+                                                    Что входит в доставку
+                                                </div>
+                                                <ul>
+                                                    <li>
+                                                        <img src="img/icons/check1.svg" alt="">
+                                                        <p>
+                                                            Доставка до склада покупателя или до подъезда клиента
+                                                        </p>
+                                                    </li>
+                                                    <li>
+                                                        <img src="img/icons/check1.svg" alt="">
+                                                        <p>
+                                                            Разгрузка из машины
+                                                        </p>
+                                                    </li>
+                                                    <li>
+                                                        <img src="img/icons/danger.svg" alt="">
+                                                        <p class="p-red">
+                                                            Если в рамках одной доставки присутствуют товары из
+                                                            разных
+                                                            категорий,
+                                                            то сумма оплаты рассчитывается из общего веса товаров
+                                                        </p>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="tabs-delivery-info__column">
+                                                <div class="tabs-delivery-info__title">
+                                                    Оплачивается отдельно
+                                                </div>
+                                                <ul>
+                                                    <li>
+                                                        <img src="img/icons/ruble.svg" alt="">
+                                                        <p>
+                                                            Подъём на лифте или ручной подъём
+                                                        </p>
+                                                    </li>
+                                                    <li>
+                                                        <img src="img/icons/ruble.svg" alt="">
+                                                        <p>
+                                                            Разнос товара по объекту — по согласованию с
+                                                            экспедитором, «на руки»
+                                                        </p>
+                                                    </li>
+                                                    <li>
+                                                        <img src="img/icons/ruble.svg" alt="">
+                                                        <p>
+                                                            Платная парковка на месте разгрузки
+                                                        </p>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="tabs-delivery-descr__column">
+                                        <div class="tabs-delivery-info">
+                                            <div class="tabs-delivery-info__column">
+                                                <div class="tabs-delivery-info__title">
+                                                    Что указать при оформлении <span>доставки</span>
+                                                </div>
+                                                <div class="tabs-delivery-info__lists">
+                                                    <ul>
+                                                        <li>
+                                                            <img src="img/icons/delivery-icon7.svg" alt="">
+                                                            <p>
+                                                                Номер дома, корпус, строение
+                                                            </p>
+                                                        </li>
+                                                        <li>
+                                                            <img src="img/icons/delivery-icon9.svg" alt="">
+                                                            <p>
+                                                                Особенности подъезда: с какой улицы, двор, арка,
+                                                                пропуск, место для разгрузки
+                                                            </p>
+                                                        </li>
+                                                        <li>
+                                                            <img src="img/icons/delivery-icon8.svg" alt="">
+                                                            <p>
+                                                                Номер квартиры
+                                                            </p>
+                                                        </li>
+                                                        <li>
+                                                            <img src="img/icons/delivery-icon8.svg" alt="">
+                                                            <p>
+                                                                Код парадной
+                                                            </p>
+                                                        </li>
+                                                        <li>
+                                                            <img src="img/icons/delivery-icon10.svg" alt="">
+                                                            <p>
+                                                                Этаж и наличие лифта
+                                                            </p>
+                                                        </li>
+                                                        <li>
+                                                            <img src="img/icons/delivery-icon11.svg" alt="">
+                                                            <p>
+                                                                Телефон того, кто примет заказ на адресе
+                                                            </p>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="tabs-delivery-descr__column">
+                                        <div class="tabs-delivery-descr__text">
+                                            <p>
+                                                Стоимость доставки и подъёма указываются в общем счёте отдельными
+                                                строками и подлежат оплате до доставки.
+                                            </p>
+                                            <p>
+                                                В исключительных случаях (замена подъёма на лифте ручным подъёмом)
+                                                стоимость подъёма возможно оплатить экспедиторам наличными «на руки».
+                                                Такая возможность согласовывается с менеджером дополнительно.
+                                            </p>
+                                            <p>
+                                                Если во время согласования заказа вы не указали, что нужен подъём, а
+                                                затем в нём возникла необходимость — обязательно проинформируйте
+                                                менеджера: в некоторых случаях вместе с водителем нужен выезд
+                                                дополнительного человека.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tabs-delivery__body">
+                                <div class="tabs-delivery-descr">
+                                    <div class="tabs-delivery-descr__column">
+                                        <div class="tabs-delivery-descr__text">
+                                            <p>
+                                                Самовывоз со склада — бесплатно! Доступен от любой суммы заказа. Срок
+                                                готовности — от 1 до 5 дней в зависимости от бренда и местонахождения
+                                                товара (он может находиться на других складах и требует логистических
+                                                перемещений).
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="tabs-delivery-descr__column">
+                                        <div class="tabs-delivery-descr__titles">
+                                            <div class="tabs-delivery-descr__title">
+                                                Режим работы <span>пункта самовывоза</span>
+                                            </div>
+                                        </div>
+                                        <div class="tabs-delivery-details details-works">
+                                            <div class="tabs-delivery-details__column">
+                                                <div class="tabs-delivery-details__title">
+                                                    ПН
+                                                </div>
+                                                <div class="tabs-delivery-details__subtitle">
+                                                    10:00–18:00
+                                                </div>
+                                            </div>
+                                            <div class="tabs-delivery-details__column">
+                                                <div class="tabs-delivery-details__title">
+                                                    ВТ
+                                                </div>
+                                                <div class="tabs-delivery-details__subtitle">
+                                                    10:00–16:00
+                                                </div>
+                                            </div>
+                                            <div class="tabs-delivery-details__column">
+                                                <div class="tabs-delivery-details__title">
+                                                    СР
+                                                </div>
+                                                <div class="tabs-delivery-details__subtitle">
+                                                    10:00–18:00
+                                                </div>
+                                            </div>
+                                            <div class="tabs-delivery-details__column">
+                                                <div class="tabs-delivery-details__title">
+                                                    ЧТ
+                                                </div>
+                                                <div class="tabs-delivery-details__subtitle">
+                                                    10:00–18:00
+                                                </div>
+                                            </div>
+                                            <div class="tabs-delivery-details__column">
+                                                <div class="tabs-delivery-details__title">
+                                                    ПТ
+                                                </div>
+                                                <div class="tabs-delivery-details__subtitle">
+                                                    10:00–18:00
+                                                </div>
+                                            </div>
+                                            <div class="tabs-delivery-details__column column-red">
+                                                <div class="tabs-delivery-details__title">
+                                                    СБ-ВС
+                                                </div>
+                                                <div class="tabs-delivery-details__subtitle">
+                                                    Выходные
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="tabs-delivery-descr__column">
+                                        <div class="tabs-delivery-info">
+                                            <div class="tabs-delivery-info__column">
+                                                <div class="tabs-delivery-info__title">
+                                                    Адрес склада
+                                                </div>
+                                                <div class="tabs-delivery-info__text">
+                                                    <p>
+                                                        Московская область, г. Долгопрудный, Промышленный проезд, д. 12,
+                                                        стр. 5
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div class="tabs-delivery-info__column">
+                                                <div class="tabs-delivery-info__title">
+                                                    Как нас найти
+                                                </div>
+                                                <div class="tabs-delivery-info__text">
+                                                    <p>
+                                                        При въезде перед КПП остановитесь и сообщите охране, что
+                                                        следуете на
+                                                        отгрузку в компанию «Интерьер.рф». Въезд на территорию
+                                                        бесплатный.
+                                                        Выезд — по пропуску, который выдаёт склад.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="tabs-delivery-descr__column">
+                                        <div class="tabs-delivery-info">
+                                            <img loading="lazy" src="img/map-delivery.webp" alt=""
+                                                class="tabs-delivery-info__map">
+                                            <div class="tabs-delivery-info__column">
+                                                <div class="tabs-delivery-info__title">
+                                                    Получение заказа для юридических лиц
+                                                </div>
+                                                <div class="tabs-delivery-info__text">
+                                                    <p>
+                                                        Потребуется предъявить доверенность, заполненную в соответствии
+                                                        с
+                                                        законодательством РФ,<br> или поставить на экземпляры документов
+                                                        «Интерьер.рф» круглую печать организации или ИП.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="tabs-delivery-descr__column">
+                                        <div class="tabs-delivery-descr__text">
+                                            <p>
+                                                Если во время согласования заказа вы не указали, что нужен подъём, а
+                                                затем в нём возникла необходимость — <strong>обязательно проинформируйте
+                                                    менеджера</strong>: в некоторых случаях вместе с водителем нужен
+                                                выезд
+                                                дополнительного человека.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tabs-delivery__body">
+                                <div class="tabs-delivery-descr">
+                                    <div class="tabs-delivery-descr__column">
+                                        <div class="tabs-delivery-descr__text">
+                                            <p>
+                                                Мы доставляем тяжёлые и крупногабаритные товары до подъезда. Если вы
+                                                хотите заказать услугу подъёма на этаж и нужен пронос до подъезда
+                                                — сообщите менеджеру по телефону при оформлении заказа или укажите в
+                                                комментарии к заказу.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div data-tabs class="tabs-delivery2">
+                                        <nav data-tabs-titles class="tabs-delivery2__navigation">
+                                            <button type="button" class="tabs-delivery2__title _tab-active">
+                                                <span class="desc">Подъём на лифте</span>
+                                                <span class="mob">На лифте</span>
+                                            </button>
+                                            <button type="button" class="tabs-delivery2__title">
+                                                <span class="desc">Ручной подъём без лифта</span>
+                                                <span class="mob">Без лифта</span>
+                                            </button>
+                                            <button type="button" class="tabs-delivery2__title">
+                                                <span class="desc">Пронос по территории</span>
+                                                <span class="mob">Пронос</span>
+                                            </button>
+                                        </nav>
+                                        <div data-tabs-body class="tabs-delivery2__content">
+                                            <div class="tabs-delivery2__body">
+                                                <div class="tabs-delivery-descr">
+                                                    <div class="tabs-delivery-descr__column">
+                                                        <div class="tabs-delivery-descr__titles">
+                                                            <div class="tabs-delivery-descr__title">
+                                                                <span class="mob">Подъём на лифте</span>
+                                                                <span class="desc">Стоимость подъёма на лифте по
+                                                                    весу</span>
+                                                            </div>
+                                                            <p>
+                                                                Стоимость зависит от общего веса товара в заказе.
+                                                            </p>
+                                                        </div>
+                                                        <div class="tabs-delivery-details">
+                                                            <div class="tabs-delivery-details__column">
+                                                                <div class="tabs-delivery-details__subtitle">
+                                                                    до 10 кг
+                                                                </div>
+                                                                <div class="tabs-delivery-details__title">
+                                                                    бесплатно
+                                                                </div>
+                                                            </div>
+                                                            <div class="tabs-delivery-details__column">
+                                                                <div class="tabs-delivery-details__subtitle">
+                                                                    10–70 кг
+                                                                </div>
+                                                                <div class="tabs-delivery-details__title">
+                                                                    600 ₽
+                                                                </div>
+                                                            </div>
+                                                            <div class="tabs-delivery-details__column">
+                                                                <div class="tabs-delivery-details__subtitle">
+                                                                    70–140 кг
+                                                                </div>
+                                                                <div class="tabs-delivery-details__title">
+                                                                    1 500 ₽
+                                                                </div>
+                                                            </div>
+                                                            <div class="tabs-delivery-details__column">
+                                                                <div class="tabs-delivery-details__subtitle">
+                                                                    от 140 кг
+                                                                </div>
+                                                                <div class="tabs-delivery-details__title">
+                                                                    индивидуально
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="tabs-delivery-descr__column">
+                                                        <div class="tabs-delivery-descr__titles">
+                                                            <div class="tabs-delivery-descr__title descr-title2">
+                                                                <span class="desc">Что входит в каждую весовую
+                                                                    категорию</span>
+                                                                <span class="mob">Что относится к каждой
+                                                                    категории</span>
+                                                            </div>
+                                                        </div>
+                                                        <div data-spollers="992,max"
+                                                            class="tabs-delivery-table tabs-delivery-table2">
+                                                            <div class="tabs-delivery-table__column main-column">
+                                                                <div class="tabs-delivery-table__title main-title">
+                                                                    Категория товаров
+                                                                </div>
+                                                                <div class="tabs-delivery-table__body">
+                                                                    <div class="tabs-delivery-table__titles">
+                                                                        <div class="tabs-delivery-table__title">
+                                                                            До 10 кг
+                                                                            <span>бесплатно</span>
+                                                                        </div>
+                                                                        <div class="tabs-delivery-table__title">
+                                                                            10–70 кг
+                                                                            <span>600 ₽</span>
+                                                                        </div>
+                                                                        <div class="tabs-delivery-table__title">
+                                                                            70–140 кг
+                                                                            <span>1 500 ₽</span>
+                                                                        </div>
+                                                                        <div class="tabs-delivery-table__title">
+                                                                            От 140 кг
+                                                                            <span>индивидуально</span>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="tabs-delivery-table__column">
+                                                                <div data-spoller
+                                                                    class="tabs-delivery-table__title main-button">
+                                                                    <img loading="lazy"
+                                                                        src="img/icons/delivery-icon1.svg" alt="">
+                                                                    Освещение и электротехника
+                                                                    <svg aria-hidden="true" width="8" height="5">
+                                                                        <use xlink:href="img/sprite.svg#arrow1"></use>
+                                                                    </svg>
+                                                                </div>
+                                                                <div class="tabs-delivery-table__body">
+                                                                    <div class="tabs-delivery-table__titles">
+                                                                        <div class="tabs-delivery-table__title">
+                                                                            <p class="mob">
+                                                                                <span>до 200
+                                                                                    кг</span>
+                                                                                <strong>Бесплатно</strong>
+                                                                            </p>
+                                                                            <p>
+                                                                                Лампы, светильники, розетки,
+                                                                                выключатели
+                                                                                и прочие товары
+                                                                            </p>
+                                                                        </div>
+                                                                        <div class="tabs-delivery-table__title">
+                                                                            <p class="mob">
+                                                                                <span>10–70 кг</span>
+                                                                                <strong>600 ₽</strong>
+                                                                            </p>
+                                                                            <p>
+                                                                                Технический и декоративный свет,
+                                                                                розетки и выключатели и прочие
+                                                                                товары
+                                                                            </p>
+                                                                        </div>
+                                                                        <div class="tabs-delivery-table__title">
+                                                                            <p class="mob">
+                                                                                <span>70–140 кг</span>
+                                                                                <strong>600 ₽</strong>
+                                                                            </p>
+                                                                            <p>
+                                                                                Технический и декоративный свет,
+                                                                                треки и прочие товары
+                                                                            </p>
+                                                                        </div>
+                                                                        <div class="tabs-delivery-table__title">
+                                                                            <p class="mob">
+                                                                                <span>от 140 кг</span>
+                                                                                <strong>индивидуально</strong>
+                                                                            </p>
+                                                                            <p>
+                                                                                Технический и декоративный свет, треки и
+                                                                                прочие товары
+                                                                            </p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="tabs-delivery-table__column">
+                                                                <div data-spoller
+                                                                    class="tabs-delivery-table__title main-button">
+                                                                    <img loading="lazy"
+                                                                        src="img/icons/delivery-icon2.svg" alt="">
+                                                                    Декор и отделка стен
+                                                                    <svg aria-hidden="true" width="8" height="5">
+                                                                        <use xlink:href="img/sprite.svg#arrow1"></use>
+                                                                    </svg>
+                                                                </div>
+                                                                <div class="tabs-delivery-table__body">
+                                                                    <div class="tabs-delivery-table__titles">
+                                                                        <div class="tabs-delivery-table__title">
+                                                                            <p class="mob">
+                                                                                <span>до 200
+                                                                                    кг</span>
+                                                                                <strong>Бесплатно</strong>
+                                                                            </p>
+                                                                            <p>
+                                                                                Часы, картины, настенный декор, подушки,
+                                                                                вазы, статуэтки, настольные зеркала,
+                                                                                аксессуары для кухни и ванной
+                                                                            </p>
+                                                                        </div>
+                                                                        <div class="tabs-delivery-table__title">
+                                                                            <p class="mob">
+                                                                                <span>10–70 кг</span>
+                                                                                <strong>600 ₽</strong>
+                                                                            </p>
+                                                                            <p>
+                                                                                Настенные и напольные зеркала до 30 кг,
+                                                                                лепнина и прочие товары
+                                                                            </p>
+                                                                        </div>
+                                                                        <div class="tabs-delivery-table__title">
+                                                                            <p class="mob">
+                                                                                <span>70–140 кг</span>
+                                                                                <strong>600 ₽</strong>
+                                                                            </p>
+                                                                            <p>
+                                                                                Большие напольные зеркала от 30 кг,
+                                                                                лепнина и другой крупногабаритный товар
+                                                                            </p>
+                                                                        </div>
+                                                                        <div class="tabs-delivery-table__title">
+                                                                            <p class="mob">
+                                                                                <span>от 140 кг</span>
+                                                                                <strong>индивидуально</strong>
+                                                                            </p>
+                                                                            <p>
+                                                                                Большие напольные зеркала от 30 кг,
+                                                                                лепнина и другой крупногабаритный товар
+                                                                            </p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="tabs-delivery-table__column">
+                                                                <div data-spoller
+                                                                    class="tabs-delivery-table__title main-button">
+                                                                    <img loading="lazy"
+                                                                        src="img/icons/delivery-icon3.svg" alt="">
+                                                                    Мебель
+                                                                    <svg aria-hidden="true" width="8" height="5">
+                                                                        <use xlink:href="img/sprite.svg#arrow1"></use>
+                                                                    </svg>
+                                                                </div>
+                                                                <div class="tabs-delivery-table__body">
+                                                                    <div class="tabs-delivery-table__titles">
+                                                                        <div class="tabs-delivery-table__title">
+                                                                            <p class="mob">
+                                                                                <span>до 200
+                                                                                    кг</span>
+                                                                                <strong>Бесплатно</strong>
+                                                                            </p>
+                                                                            <p>
+                                                                                Стулья (до 4 шт), кресла, табуреты,
+                                                                                банкетки, пуфы, столики
+                                                                            </p>
+                                                                        </div>
+                                                                        <div class="tabs-delivery-table__title">
+                                                                            <p class="mob">
+                                                                                <span>10–70 кг</span>
+                                                                                <strong>600 ₽</strong>
+                                                                            </p>
+                                                                            <p>
+                                                                                Столы, стулья, кресла, табуреты,
+                                                                                банкетки, пуфы, тумбы, комоды, консоли
+                                                                            </p>
+                                                                        </div>
+                                                                        <div class="tabs-delivery-table__title">
+                                                                            <p class="mob">
+                                                                                <span>70–140 кг</span>
+                                                                                <strong>600 ₽</strong>
+                                                                            </p>
+                                                                            <p>
+                                                                                Диваны, кровати, кушетки, шкафы, тумбы,
+                                                                                комоды, столы
+                                                                            </p>
+                                                                        </div>
+                                                                        <div class="tabs-delivery-table__title">
+                                                                            <p class="mob">
+                                                                                <span>от 140 кг</span>
+                                                                                <strong>индивидуально</strong>
+                                                                            </p>
+                                                                            <p>
+                                                                                Диваны, кровати, кушетки, шкафы, тумбы,
+                                                                                комоды, столы
+                                                                            </p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="tabs-delivery-table__column">
+                                                                <div data-spoller
+                                                                    class="tabs-delivery-table__title main-button">
+                                                                    <img loading="lazy"
+                                                                        src="img/icons/delivery-icon4.svg" alt="">
+                                                                    Сантехника
+                                                                    <svg aria-hidden="true" width="8" height="5">
+                                                                        <use xlink:href="img/sprite.svg#arrow1"></use>
+                                                                    </svg>
+                                                                </div>
+                                                                <div class="tabs-delivery-table__body">
+                                                                    <div class="tabs-delivery-table__titles">
+                                                                        <div class="tabs-delivery-table__title">
+                                                                            <p class="mob">
+                                                                                <span>до 200
+                                                                                    кг</span>
+                                                                                <strong>Бесплатно</strong>
+                                                                            </p>
+                                                                            <p>
+                                                                                Смесители, аксессуары для ванной комнаты
+                                                                            </p>
+                                                                        </div>
+                                                                        <div class="tabs-delivery-table__title">
+                                                                            <p class="mob">
+                                                                                <span>10–70 кг</span>
+                                                                                <strong>600 ₽</strong>
+                                                                            </p>
+                                                                            <p>
+                                                                                Раковины, полотенцесушители, души,
+                                                                                навесные шкафы, унитазы
+                                                                            </p>
+                                                                        </div>
+                                                                        <div class="tabs-delivery-table__title">
+                                                                            <p class="mob">
+                                                                                <span>70–140 кг</span>
+                                                                                <strong>600 ₽</strong>
+                                                                            </p>
+                                                                            <p>
+                                                                                Ванны, душевые кабины, комплекты мебели
+                                                                                и другой крупногабаритный товар
+                                                                            </p>
+                                                                        </div>
+                                                                        <div class="tabs-delivery-table__title">
+                                                                            <p class="mob">
+                                                                                <span>от 140 кг</span>
+                                                                                <strong>индивидуально</strong>
+                                                                            </p>
+                                                                            <p>
+                                                                                Ванны, душевые кабины, комплекты мебели
+                                                                                и другой крупногабаритный товар
+                                                                            </p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="tabs-delivery-table__column">
+                                                                <div data-spoller
+                                                                    class="tabs-delivery-table__title main-button">
+                                                                    <img loading="lazy"
+                                                                        src="img/icons/delivery-icon5.svg" alt="">
+                                                                    Отопление
+                                                                    <svg aria-hidden="true" width="8" height="5">
+                                                                        <use xlink:href="img/sprite.svg#arrow1"></use>
+                                                                    </svg>
+                                                                </div>
+                                                                <div class="tabs-delivery-table__body">
+                                                                    <div class="tabs-delivery-table__titles">
+                                                                        <div class="tabs-delivery-table__title">
+                                                                            <p class="mob">
+                                                                                <span>до 200
+                                                                                    кг</span>
+                                                                                <strong>Бесплатно</strong>
+                                                                            </p>
+                                                                            <p>
+                                                                                Бризеры, тёплый пол, обогреватели и
+                                                                                прочие товары
+                                                                            </p>
+                                                                        </div>
+                                                                        <div class="tabs-delivery-table__title">
+                                                                            <p class="mob">
+                                                                                <span>10–70 кг</span>
+                                                                                <strong>600 ₽</strong>
+                                                                            </p>
+                                                                            <p>
+                                                                                Радиаторы, конвекторы, водонагреватели и
+                                                                                прочие товары
+                                                                            </p>
+                                                                        </div>
+                                                                        <div class="tabs-delivery-table__title">
+                                                                            <p class="mob">
+                                                                                <span>70–140 кг</span>
+                                                                                <strong>600 ₽</strong>
+                                                                            </p>
+                                                                            <p>
+                                                                                Котлы, камины, баки, печи и другой
+                                                                                крупногабаритный товар
+                                                                            </p>
+                                                                        </div>
+                                                                        <div class="tabs-delivery-table__title">
+                                                                            <p class="mob">
+                                                                                <span>от 140 кг</span>
+                                                                                <strong>индивидуально</strong>
+                                                                            </p>
+                                                                            <p>
+                                                                                Котлы, камины, баки, печи и другой
+                                                                                крупногабаритный товар
+                                                                            </p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="tabs-delivery-descr__column">
+                                                        <div class="tabs-delivery-descr__titles">
+                                                            <div class="tabs-delivery-descr__title descr-title2">
+                                                                Плитка и напольные покрытия
+                                                            </div>
+                                                        </div>
+                                                        <div data-spollers="992,max"
+                                                            class="tabs-delivery-table tabs-delivery-table2">
+                                                            <div class="tabs-delivery-table__column main-column">
+                                                                <div class="tabs-delivery-table__title main-title">
+                                                                    Вес партии
+                                                                </div>
+                                                                <div class="tabs-delivery-table__body">
+                                                                    <div class="tabs-delivery-table__titles">
+                                                                        <div class="tabs-delivery-table__title">
+                                                                            До 200 кг
+                                                                            <span>бесплатно</span>
+                                                                        </div>
+                                                                        <div class="tabs-delivery-table__title">
+                                                                            200–700 кг
+                                                                            <span>600 ₽</span>
+                                                                        </div>
+                                                                        <div class="tabs-delivery-table__title">
+                                                                            до 1 100 кг
+                                                                            <span>2 500 ₽</span>
+                                                                        </div>
+                                                                        <div class="tabs-delivery-table__title">
+                                                                            от 1 100 кг
+                                                                            <span>индивидуально</span>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="tabs-delivery-table__column">
+                                                                <div data-spoller
+                                                                    class="tabs-delivery-table__title main-button">
+                                                                    <img loading="lazy"
+                                                                        src="img/icons/delivery-icon6.svg" alt="">
+                                                                    Плитка и напольные покрытия
+                                                                    <svg aria-hidden="true" width="8" height="5">
+                                                                        <use xlink:href="img/sprite.svg#arrow1"></use>
+                                                                    </svg>
+                                                                </div>
+                                                                <div class="tabs-delivery-table__body">
+                                                                    <div class="tabs-delivery-table__text">
+                                                                        У плитки своя шкала по весу:
+                                                                    </div>
+                                                                    <div class="tabs-delivery-table__titles">
+                                                                        <div class="tabs-delivery-table__title">
+                                                                            <p class="mob">
+                                                                                <span>до 200 кг</span>
+                                                                                <strong>Бесплатно</strong>
+                                                                            </p>
+                                                                            <p class="mob2">
+                                                                                до 200 кг
+                                                                            </p>
+                                                                        </div>
+                                                                        <div class="tabs-delivery-table__title">
+                                                                            <p class="mob">
+                                                                                <span>200–700 кг</span>
+                                                                                <strong>600 ₽</strong>
+                                                                            </p>
+                                                                            <p class="mob2">
+                                                                                200–700 кг
+                                                                            </p>
+                                                                        </div>
+                                                                        <div class="tabs-delivery-table__title">
+                                                                            <p class="mob">
+                                                                                <span>до 1 100 кг</span>
+                                                                                <strong>2 500 ₽</strong>
+                                                                            </p>
+                                                                            <p class="mob2">
+                                                                                до 1 100 кг
+                                                                            </p>
+                                                                        </div>
+                                                                        <div class="tabs-delivery-table__title">
+                                                                            <p class="mob">
+                                                                                <span>от 1 100 кг</span>
+                                                                                <strong>индивидуально</strong>
+                                                                            </p>
+                                                                            <p class="mob2">
+                                                                                от 1 100 кг
+                                                                            </p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="tabs-delivery-descr__column">
+                                                        <div class="tabs-delivery-descr__text">
+                                                            <p>
+                                                                Для выгрузки товара проезд для грузового транспорта к
+                                                                дому или объекту
+                                                                должен быть свободным. Если подъехать на территорию не
+                                                                получится —
+                                                                возможность оказания услуги и её стоимость
+                                                                согласовываются
+                                                                индивидуально.
+                                                            </p>
+                                                            <p>
+                                                                Если парковка платная — парковочное место оплачивает
+                                                                клиент.
+                                                            </p>
+                                                            <p>
+                                                                Подъём не осуществляется в частных домах и двухуровневых
+                                                                квартирах, а
+                                                                также по сложным, неосвещённым, узким и нестандартным
+                                                                лестничным
+                                                                пролётам. Если клиент заранее не предупредил об
+                                                                отсутствии
+                                                                беспрепятственной зоны для выгрузки — повторный выезд
+                                                                оплачивается
+                                                                повторно.
+                                                            </p>
+                                                            <p>
+                                                                При отказе покупателя от заказа оказанные услуги подъёма
+                                                                оплачиваются в
+                                                                полном объёме.
+                                                            </p>
+                                                            <p>
+                                                                Рекомендуем до подъёма осмотреть товар.
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="tabs-delivery2__body">
+                                                <div class="tabs-delivery-descr">
+                                                    <div class="tabs-delivery-descr__column">
+                                                        <div class="tabs-delivery-descr__titles">
+                                                            <div class="tabs-delivery-descr__title">
+                                                                <span class="mob">Подъём без лифта</span>
+                                                                <span class="desc">Стоимость ручного подъёма без
+                                                                    лифта</span>
+                                                            </div>
+                                                            <p>
+                                                                Стоимость зависит от общего веса товара в заказе.
+                                                            </p>
+                                                        </div>
+                                                        <div class="tabs-delivery-details">
+                                                            <div class="tabs-delivery-details__column">
+                                                                <div class="tabs-delivery-details__subtitle">
+                                                                    до 10 кг
+                                                                </div>
+                                                                <div class="tabs-delivery-details__title">
+                                                                    50 ₽/этаж
+                                                                </div>
+                                                            </div>
+                                                            <div class="tabs-delivery-details__column">
+                                                                <div class="tabs-delivery-details__subtitle">
+                                                                    10–30 кг
+                                                                </div>
+                                                                <div class="tabs-delivery-details__title">
+                                                                    600 ₽ + 100 ₽/этаж
+                                                                </div>
+                                                            </div>
+                                                            <div class="tabs-delivery-details__column">
+                                                                <div class="tabs-delivery-details__subtitle">
+                                                                    30–70 кг
+                                                                </div>
+                                                                <div class="tabs-delivery-details__title">
+                                                                    1 500 ₽ + 150 ₽/этаж
+                                                                </div>
+                                                            </div>
+                                                            <div class="tabs-delivery-details__column">
+                                                                <div class="tabs-delivery-details__subtitle">
+                                                                    70–110 кг
+                                                                </div>
+                                                                <div class="tabs-delivery-details__title">
+                                                                    индивидуально
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="tabs-delivery-descr__column">
+                                                        <div class="tabs-delivery-descr__titles">
+                                                            <div class="tabs-delivery-descr__title descr-title2">
+                                                                <span class="desc">Что входит в каждую весовую
+                                                                    категорию</span>
+                                                                <span class="mob">Что относится к каждой
+                                                                    категории</span>
+                                                            </div>
+                                                        </div>
+                                                        <div data-spollers="992,max"
+                                                            class="tabs-delivery-table tabs-delivery-table2">
+                                                            <div class="tabs-delivery-table__column main-column">
+                                                                <div class="tabs-delivery-table__title main-title">
+                                                                    Категория товаров
+                                                                </div>
+                                                                <div class="tabs-delivery-table__body">
+                                                                    <div class="tabs-delivery-table__titles">
+                                                                        <div class="tabs-delivery-table__title">
+                                                                            До 10 кг
+                                                                            <span>50 ₽/этаж</span>
+                                                                        </div>
+                                                                        <div class="tabs-delivery-table__title">
+                                                                            10–30 кг
+                                                                            <span>600 ₽ + 100 ₽/этаж</span>
+                                                                        </div>
+                                                                        <div class="tabs-delivery-table__title">
+                                                                            30–70 кг
+                                                                            <span>1 500 ₽ + 150 ₽/этаж</span>
+                                                                        </div>
+                                                                        <div class="tabs-delivery-table__title">
+                                                                            70–110 кг
+                                                                            <span>индивидуально</span>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="tabs-delivery-table__column">
+                                                                <div data-spoller
+                                                                    class="tabs-delivery-table__title main-button">
+                                                                    <img loading="lazy"
+                                                                        src="img/icons/delivery-icon1.svg" alt="">
+                                                                    Освещение и электротехника
+                                                                    <svg aria-hidden="true" width="8" height="5">
+                                                                        <use xlink:href="img/sprite.svg#arrow1"></use>
+                                                                    </svg>
+                                                                </div>
+                                                                <div class="tabs-delivery-table__body">
+                                                                    <div class="tabs-delivery-table__titles">
+                                                                        <div class="tabs-delivery-table__title">
+                                                                            <p class="mob">
+                                                                                <span>10–30 кг</span>
+                                                                                <strong>600 ₽ + 100 ₽/этаж</strong>
+                                                                            </p>
+                                                                            <p>
+                                                                                Лампы, светильники, розетки,
+                                                                                выключатели
+                                                                                и прочие товары
+                                                                            </p>
+                                                                        </div>
+                                                                        <div class="tabs-delivery-table__title">
+                                                                            <p class="mob">
+                                                                                <span>10–30 кг</span>
+                                                                                <strong>600 ₽ + 100 ₽/этаж</strong>
+                                                                            </p>
+                                                                            <p>
+                                                                                Технический и декоративный свет,
+                                                                                розетки и выключатели и прочие
+                                                                                товары
+                                                                            </p>
+                                                                        </div>
+                                                                        <div class="tabs-delivery-table__title">
+                                                                            <p class="mob">
+                                                                                <span>30–70 кг</span>
+                                                                                <strong>1 500 ₽ + 150 ₽/этаж</strong>
+                                                                            </p>
+                                                                            <p>
+                                                                                Технический и декоративный свет,
+                                                                                треки и прочие товары
+                                                                            </p>
+                                                                        </div>
+                                                                        <div class="tabs-delivery-table__title">
+                                                                            <p class="mob">
+                                                                                <span>70–110 кг</span>
+                                                                                <strong>индивидуально</strong>
+                                                                            </p>
+                                                                            <p>
+                                                                                Технический и декоративный свет, треки и
+                                                                                прочие товары
+                                                                            </p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="tabs-delivery-table__column">
+                                                                <div data-spoller
+                                                                    class="tabs-delivery-table__title main-button">
+                                                                    <img loading="lazy"
+                                                                        src="img/icons/delivery-icon2.svg" alt="">
+                                                                    Декор и отделка стен
+                                                                    <svg aria-hidden="true" width="8" height="5">
+                                                                        <use xlink:href="img/sprite.svg#arrow1"></use>
+                                                                    </svg>
+                                                                </div>
+                                                                <div class="tabs-delivery-table__body">
+                                                                    <div class="tabs-delivery-table__titles">
+                                                                        <div class="tabs-delivery-table__title">
+                                                                            <p class="mob">
+                                                                                <span>до 200
+                                                                                    кг</span>
+                                                                                <strong>Бесплатно</strong>
+                                                                            </p>
+                                                                            <p>
+                                                                                Часы, картины, настенный декор, подушки,
+                                                                                вазы, статуэтки, настольные зеркала,
+                                                                                аксессуары для кухни и ванной
+                                                                            </p>
+                                                                        </div>
+                                                                        <div class="tabs-delivery-table__title">
+                                                                            <p class="mob">
+                                                                                <span>10–70 кг</span>
+                                                                                <strong>600 ₽</strong>
+                                                                            </p>
+                                                                            <p>
+                                                                                Настенные и напольные зеркала до 30 кг,
+                                                                                лепнина и прочие товары
+                                                                            </p>
+                                                                        </div>
+                                                                        <div class="tabs-delivery-table__title">
+                                                                            <p class="mob">
+                                                                                <span>70–140 кг</span>
+                                                                                <strong>600 ₽</strong>
+                                                                            </p>
+                                                                            <p>
+                                                                                Большие напольные зеркала от 30 кг,
+                                                                                лепнина и другой крупногабаритный товар
+                                                                            </p>
+                                                                        </div>
+                                                                        <div class="tabs-delivery-table__title">
+                                                                            <p class="mob">
+                                                                                <span>от 140 кг</span>
+                                                                                <strong>индивидуально</strong>
+                                                                            </p>
+                                                                            <p>
+                                                                                Большие напольные зеркала от 30 кг,
+                                                                                лепнина и другой крупногабаритный товар
+                                                                            </p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="tabs-delivery-table__column">
+                                                                <div data-spoller
+                                                                    class="tabs-delivery-table__title main-button">
+                                                                    <img loading="lazy"
+                                                                        src="img/icons/delivery-icon3.svg" alt="">
+                                                                    Мебель
+                                                                    <svg aria-hidden="true" width="8" height="5">
+                                                                        <use xlink:href="img/sprite.svg#arrow1"></use>
+                                                                    </svg>
+                                                                </div>
+                                                                <div class="tabs-delivery-table__body">
+                                                                    <div class="tabs-delivery-table__titles">
+                                                                        <div class="tabs-delivery-table__title">
+                                                                            <p class="mob">
+                                                                                <span>до 200
+                                                                                    кг</span>
+                                                                                <strong>Бесплатно</strong>
+                                                                            </p>
+                                                                            <p>
+                                                                                Стулья (до 4 шт), кресла, табуреты,
+                                                                                банкетки, пуфы, столики
+                                                                            </p>
+                                                                        </div>
+                                                                        <div class="tabs-delivery-table__title">
+                                                                            <p class="mob">
+                                                                                <span>10–70 кг</span>
+                                                                                <strong>600 ₽</strong>
+                                                                            </p>
+                                                                            <p>
+                                                                                Столы, стулья, кресла, табуреты,
+                                                                                банкетки, пуфы, тумбы, комоды, консоли
+                                                                            </p>
+                                                                        </div>
+                                                                        <div class="tabs-delivery-table__title">
+                                                                            <p class="mob">
+                                                                                <span>70–140 кг</span>
+                                                                                <strong>600 ₽</strong>
+                                                                            </p>
+                                                                            <p>
+                                                                                Диваны, кровати, кушетки, шкафы, тумбы,
+                                                                                комоды, столы
+                                                                            </p>
+                                                                        </div>
+                                                                        <div class="tabs-delivery-table__title">
+                                                                            <p class="mob">
+                                                                                <span>от 140 кг</span>
+                                                                                <strong>индивидуально</strong>
+                                                                            </p>
+                                                                            <p>
+                                                                                Диваны, кровати, кушетки, шкафы, тумбы,
+                                                                                комоды, столы
+                                                                            </p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="tabs-delivery-table__column">
+                                                                <div data-spoller
+                                                                    class="tabs-delivery-table__title main-button">
+                                                                    <img loading="lazy"
+                                                                        src="img/icons/delivery-icon4.svg" alt="">
+                                                                    Сантехника
+                                                                    <svg aria-hidden="true" width="8" height="5">
+                                                                        <use xlink:href="img/sprite.svg#arrow1"></use>
+                                                                    </svg>
+                                                                </div>
+                                                                <div class="tabs-delivery-table__body">
+                                                                    <div class="tabs-delivery-table__titles">
+                                                                        <div class="tabs-delivery-table__title">
+                                                                            <p class="mob">
+                                                                                <span>до 200
+                                                                                    кг</span>
+                                                                                <strong>Бесплатно</strong>
+                                                                            </p>
+                                                                            <p>
+                                                                                Смесители, аксессуары для ванной комнаты
+                                                                            </p>
+                                                                        </div>
+                                                                        <div class="tabs-delivery-table__title">
+                                                                            <p class="mob">
+                                                                                <span>10–70 кг</span>
+                                                                                <strong>600 ₽</strong>
+                                                                            </p>
+                                                                            <p>
+                                                                                Раковины, полотенцесушители, души,
+                                                                                навесные шкафы, унитазы
+                                                                            </p>
+                                                                        </div>
+                                                                        <div class="tabs-delivery-table__title">
+                                                                            <p class="mob">
+                                                                                <span>70–140 кг</span>
+                                                                                <strong>600 ₽</strong>
+                                                                            </p>
+                                                                            <p>
+                                                                                Ванны, душевые кабины, комплекты мебели
+                                                                                и другой крупногабаритный товар
+                                                                            </p>
+                                                                        </div>
+                                                                        <div class="tabs-delivery-table__title">
+                                                                            <p class="mob">
+                                                                                <span>от 140 кг</span>
+                                                                                <strong>индивидуально</strong>
+                                                                            </p>
+                                                                            <p>
+                                                                                Ванны, душевые кабины, комплекты мебели
+                                                                                и другой крупногабаритный товар
+                                                                            </p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="tabs-delivery-table__column">
+                                                                <div data-spoller
+                                                                    class="tabs-delivery-table__title main-button">
+                                                                    <img loading="lazy"
+                                                                        src="img/icons/delivery-icon5.svg" alt="">
+                                                                    Отопление
+                                                                    <svg aria-hidden="true" width="8" height="5">
+                                                                        <use xlink:href="img/sprite.svg#arrow1"></use>
+                                                                    </svg>
+                                                                </div>
+                                                                <div class="tabs-delivery-table__body">
+                                                                    <div class="tabs-delivery-table__titles">
+                                                                        <div class="tabs-delivery-table__title">
+                                                                            <p class="mob">
+                                                                                <span>до 200
+                                                                                    кг</span>
+                                                                                <strong>Бесплатно</strong>
+                                                                            </p>
+                                                                            <p>
+                                                                                Бризеры, тёплый пол, обогреватели и
+                                                                                прочие товары
+                                                                            </p>
+                                                                        </div>
+                                                                        <div class="tabs-delivery-table__title">
+                                                                            <p class="mob">
+                                                                                <span>10–70 кг</span>
+                                                                                <strong>600 ₽</strong>
+                                                                            </p>
+                                                                            <p>
+                                                                                Радиаторы, конвекторы, водонагреватели и
+                                                                                прочие товары
+                                                                            </p>
+                                                                        </div>
+                                                                        <div class="tabs-delivery-table__title">
+                                                                            <p class="mob">
+                                                                                <span>70–140 кг</span>
+                                                                                <strong>600 ₽</strong>
+                                                                            </p>
+                                                                            <p>
+                                                                                Котлы, камины, баки, печи и другой
+                                                                                крупногабаритный товар
+                                                                            </p>
+                                                                        </div>
+                                                                        <div class="tabs-delivery-table__title">
+                                                                            <p class="mob">
+                                                                                <span>от 140 кг</span>
+                                                                                <strong>индивидуально</strong>
+                                                                            </p>
+                                                                            <p>
+                                                                                Котлы, камины, баки, печи и другой
+                                                                                крупногабаритный товар
+                                                                            </p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="tabs-delivery-descr__column">
+                                                        <div class="tabs-delivery-descr__titles">
+                                                            <div class="tabs-delivery-descr__title descr-title2">
+                                                                Плитка и напольные покрытия
+                                                            </div>
+                                                        </div>
+                                                        <div data-spollers="992,max"
+                                                            class="tabs-delivery-table tabs-delivery-table2">
+                                                            <div class="tabs-delivery-table__column main-column">
+                                                                <div class="tabs-delivery-table__title main-title">
+                                                                    Вес партии
+                                                                </div>
+                                                                <div class="tabs-delivery-table__body">
+                                                                    <div class="tabs-delivery-table__titles">
+                                                                        <div class="tabs-delivery-table__title">
+                                                                            До 200 кг
+                                                                            <span>600 ₽ + 100 ₽/этаж</span>
+                                                                        </div>
+                                                                        <div class="tabs-delivery-table__title">
+                                                                            до 700 кг
+                                                                            <span>2 500 ₽ + 150 ₽/этаж</span>
+                                                                        </div>
+                                                                        <div class="tabs-delivery-table__title">
+                                                                            от 1 100 кг
+                                                                            <span>индивидуально</span>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="tabs-delivery-table__column">
+                                                                <div data-spoller
+                                                                    class="tabs-delivery-table__title main-button">
+                                                                    <img loading="lazy"
+                                                                        src="img/icons/delivery-icon6.svg" alt="">
+                                                                    Плитка и напольные покрытия
+                                                                    <svg aria-hidden="true" width="8" height="5">
+                                                                        <use xlink:href="img/sprite.svg#arrow1"></use>
+                                                                    </svg>
+                                                                </div>
+                                                                <div class="tabs-delivery-table__body">
+                                                                    <div class="tabs-delivery-table__text">
+                                                                        У плитки своя шкала по весу:
+                                                                    </div>
+                                                                    <div class="tabs-delivery-table__titles">
+                                                                        <div class="tabs-delivery-table__title">
+                                                                            <p class="mob">
+                                                                                <span>до 200 кг</span>
+                                                                                <strong>600 ₽ + 100 ₽/этаж</strong>
+                                                                            </p>
+                                                                            <p class="mob2">
+                                                                                до 200 кг
+                                                                            </p>
+                                                                        </div>
+                                                                        <div class="tabs-delivery-table__title">
+                                                                            <p class="mob">
+                                                                                <span>до 700 кг</span>
+                                                                                <strong>2 500 ₽ + 150 ₽/этаж</strong>
+                                                                            </p>
+                                                                            <p class="mob2">
+                                                                                до 700 кг
+                                                                            </p>
+                                                                        </div>
+                                                                        <div class="tabs-delivery-table__title">
+                                                                            <p class="mob">
+                                                                                <span>от 1 100 кг</span>
+                                                                                <strong>индивидуально</strong>
+                                                                            </p>
+                                                                            <p class="mob2">
+                                                                                от 1 100 кг
+                                                                            </p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="tabs-delivery-descr__column">
+                                                        <div class="tabs-delivery-descr__text">
+                                                            <p>
+                                                                Для выгрузки товара проезд для грузового транспорта к
+                                                                дому или объекту
+                                                                должен быть свободным. Если подъехать на территорию не
+                                                                получится —
+                                                                возможность оказания услуги и её стоимость
+                                                                согласовываются
+                                                                индивидуально.
+                                                            </p>
+                                                            <p>
+                                                                Если парковка платная — парковочное место оплачивает
+                                                                клиент.
+                                                            </p>
+                                                            <p>
+                                                                Подъём не осуществляется в частных домах и двухуровневых
+                                                                квартирах, а
+                                                                также по сложным, неосвещённым, узким и нестандартным
+                                                                лестничным
+                                                                пролётам. Если клиент заранее не предупредил об
+                                                                отсутствии
+                                                                беспрепятственной зоны для выгрузки — повторный выезд
+                                                                оплачивается
+                                                                повторно.
+                                                            </p>
+                                                            <p>
+                                                                При отказе покупателя от заказа оказанные услуги подъёма
+                                                                оплачиваются в
+                                                                полном объёме.
+                                                            </p>
+                                                            <p>
+                                                                Рекомендуем до подъёма осмотреть товар.
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="tabs-delivery2__body">
+                                                <div class="tabs-delivery-descr">
+                                                    <div class="tabs-delivery-descr__column">
+                                                        <div class="tabs-delivery-descr__titles">
+                                                            <div class="tabs-delivery-descr__title">
+                                                                <span class="mob">Пронос по территории</span>
+                                                                <span class="desc">Стоимость проноса по
+                                                                    территории</span>
+                                                            </div>
+                                                            <p>
+                                                                Стоимость зависит от общего веса товара в заказе.
+                                                            </p>
+                                                        </div>
+                                                        <div class="tabs-delivery-details">
+                                                            <div class="tabs-delivery-details__column">
+                                                                <div class="tabs-delivery-details__subtitle">
+                                                                    до 10 кг
+                                                                </div>
+                                                                <div class="tabs-delivery-details__title">
+                                                                    50 ₽/этаж
+                                                                </div>
+                                                            </div>
+                                                            <div class="tabs-delivery-details__column">
+                                                                <div class="tabs-delivery-details__subtitle">
+                                                                    10–30 кг
+                                                                </div>
+                                                                <div class="tabs-delivery-details__title">
+                                                                    600 ₽ + 100 ₽/этаж
+                                                                </div>
+                                                            </div>
+                                                            <div class="tabs-delivery-details__column">
+                                                                <div class="tabs-delivery-details__subtitle">
+                                                                    30–70 кг
+                                                                </div>
+                                                                <div class="tabs-delivery-details__title">
+                                                                    1 500 ₽ + 150 ₽/этаж
+                                                                </div>
+                                                            </div>
+                                                            <div class="tabs-delivery-details__column">
+                                                                <div class="tabs-delivery-details__subtitle">
+                                                                    70–110 кг
+                                                                </div>
+                                                                <div class="tabs-delivery-details__title">
+                                                                    индивидуально
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="tabs-delivery-descr__column">
+                                                        <div class="tabs-delivery-descr__titles">
+                                                            <div class="tabs-delivery-descr__title descr-title2">
+                                                                <span class="desc">Что входит в каждую весовую
+                                                                    категорию</span>
+                                                                <span class="mob">Что относится к каждой
+                                                                    категории</span>
+                                                            </div>
+                                                        </div>
+                                                        <div data-spollers="992,max"
+                                                            class="tabs-delivery-table tabs-delivery-table2">
+                                                            <div class="tabs-delivery-table__column main-column">
+                                                                <div class="tabs-delivery-table__title main-title">
+                                                                    Категория товаров
+                                                                </div>
+                                                                <div class="tabs-delivery-table__body">
+                                                                    <div class="tabs-delivery-table__titles">
+                                                                        <div class="tabs-delivery-table__title">
+                                                                            До 10 кг
+                                                                            <span>50 ₽/этаж</span>
+                                                                        </div>
+                                                                        <div class="tabs-delivery-table__title">
+                                                                            10–30 кг
+                                                                            <span>600 ₽ + 100 ₽/этаж</span>
+                                                                        </div>
+                                                                        <div class="tabs-delivery-table__title">
+                                                                            30–70 кг
+                                                                            <span>1 500 ₽ + 150 ₽/этаж</span>
+                                                                        </div>
+                                                                        <div class="tabs-delivery-table__title">
+                                                                            70–110 кг
+                                                                            <span>индивидуально</span>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="tabs-delivery-table__column">
+                                                                <div data-spoller
+                                                                    class="tabs-delivery-table__title main-button">
+                                                                    <img loading="lazy"
+                                                                        src="img/icons/delivery-icon1.svg" alt="">
+                                                                    Освещение и электротехника
+                                                                    <svg aria-hidden="true" width="8" height="5">
+                                                                        <use xlink:href="img/sprite.svg#arrow1"></use>
+                                                                    </svg>
+                                                                </div>
+                                                                <div class="tabs-delivery-table__body">
+                                                                    <div class="tabs-delivery-table__titles">
+                                                                        <div class="tabs-delivery-table__title">
+                                                                            <p class="mob">
+                                                                                <span>10–30 кг</span>
+                                                                                <strong>600 ₽ + 100 ₽/этаж</strong>
+                                                                            </p>
+                                                                            <p>
+                                                                                Лампы, светильники, розетки,
+                                                                                выключатели
+                                                                                и прочие товары
+                                                                            </p>
+                                                                        </div>
+                                                                        <div class="tabs-delivery-table__title">
+                                                                            <p class="mob">
+                                                                                <span>10–30 кг</span>
+                                                                                <strong>600 ₽ + 100 ₽/этаж</strong>
+                                                                            </p>
+                                                                            <p>
+                                                                                Технический и декоративный свет,
+                                                                                розетки и выключатели и прочие
+                                                                                товары
+                                                                            </p>
+                                                                        </div>
+                                                                        <div class="tabs-delivery-table__title">
+                                                                            <p class="mob">
+                                                                                <span>30–70 кг</span>
+                                                                                <strong>1 500 ₽ + 150 ₽/этаж</strong>
+                                                                            </p>
+                                                                            <p>
+                                                                                Технический и декоративный свет,
+                                                                                треки и прочие товары
+                                                                            </p>
+                                                                        </div>
+                                                                        <div class="tabs-delivery-table__title">
+                                                                            <p class="mob">
+                                                                                <span>70–110 кг</span>
+                                                                                <strong>индивидуально</strong>
+                                                                            </p>
+                                                                            <p>
+                                                                                Технический и декоративный свет, треки и
+                                                                                прочие товары
+                                                                            </p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="tabs-delivery-table__column">
+                                                                <div data-spoller
+                                                                    class="tabs-delivery-table__title main-button">
+                                                                    <img loading="lazy"
+                                                                        src="img/icons/delivery-icon2.svg" alt="">
+                                                                    Декор и отделка стен
+                                                                    <svg aria-hidden="true" width="8" height="5">
+                                                                        <use xlink:href="img/sprite.svg#arrow1"></use>
+                                                                    </svg>
+                                                                </div>
+                                                                <div class="tabs-delivery-table__body">
+                                                                    <div class="tabs-delivery-table__titles">
+                                                                        <div class="tabs-delivery-table__title">
+                                                                            <p class="mob">
+                                                                                <span>до 200
+                                                                                    кг</span>
+                                                                                <strong>Бесплатно</strong>
+                                                                            </p>
+                                                                            <p>
+                                                                                Часы, картины, настенный декор, подушки,
+                                                                                вазы, статуэтки, настольные зеркала,
+                                                                                аксессуары для кухни и ванной
+                                                                            </p>
+                                                                        </div>
+                                                                        <div class="tabs-delivery-table__title">
+                                                                            <p class="mob">
+                                                                                <span>10–70 кг</span>
+                                                                                <strong>600 ₽</strong>
+                                                                            </p>
+                                                                            <p>
+                                                                                Настенные и напольные зеркала до 30 кг,
+                                                                                лепнина и прочие товары
+                                                                            </p>
+                                                                        </div>
+                                                                        <div class="tabs-delivery-table__title">
+                                                                            <p class="mob">
+                                                                                <span>70–140 кг</span>
+                                                                                <strong>600 ₽</strong>
+                                                                            </p>
+                                                                            <p>
+                                                                                Большие напольные зеркала от 30 кг,
+                                                                                лепнина и другой крупногабаритный товар
+                                                                            </p>
+                                                                        </div>
+                                                                        <div class="tabs-delivery-table__title">
+                                                                            <p class="mob">
+                                                                                <span>от 140 кг</span>
+                                                                                <strong>индивидуально</strong>
+                                                                            </p>
+                                                                            <p>
+                                                                                Большие напольные зеркала от 30 кг,
+                                                                                лепнина и другой крупногабаритный товар
+                                                                            </p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="tabs-delivery-table__column">
+                                                                <div data-spoller
+                                                                    class="tabs-delivery-table__title main-button">
+                                                                    <img loading="lazy"
+                                                                        src="img/icons/delivery-icon3.svg" alt="">
+                                                                    Мебель
+                                                                    <svg aria-hidden="true" width="8" height="5">
+                                                                        <use xlink:href="img/sprite.svg#arrow1"></use>
+                                                                    </svg>
+                                                                </div>
+                                                                <div class="tabs-delivery-table__body">
+                                                                    <div class="tabs-delivery-table__titles">
+                                                                        <div class="tabs-delivery-table__title">
+                                                                            <p class="mob">
+                                                                                <span>до 200
+                                                                                    кг</span>
+                                                                                <strong>Бесплатно</strong>
+                                                                            </p>
+                                                                            <p>
+                                                                                Стулья (до 4 шт), кресла, табуреты,
+                                                                                банкетки, пуфы, столики
+                                                                            </p>
+                                                                        </div>
+                                                                        <div class="tabs-delivery-table__title">
+                                                                            <p class="mob">
+                                                                                <span>10–70 кг</span>
+                                                                                <strong>600 ₽</strong>
+                                                                            </p>
+                                                                            <p>
+                                                                                Столы, стулья, кресла, табуреты,
+                                                                                банкетки, пуфы, тумбы, комоды, консоли
+                                                                            </p>
+                                                                        </div>
+                                                                        <div class="tabs-delivery-table__title">
+                                                                            <p class="mob">
+                                                                                <span>70–140 кг</span>
+                                                                                <strong>600 ₽</strong>
+                                                                            </p>
+                                                                            <p>
+                                                                                Диваны, кровати, кушетки, шкафы, тумбы,
+                                                                                комоды, столы
+                                                                            </p>
+                                                                        </div>
+                                                                        <div class="tabs-delivery-table__title">
+                                                                            <p class="mob">
+                                                                                <span>от 140 кг</span>
+                                                                                <strong>индивидуально</strong>
+                                                                            </p>
+                                                                            <p>
+                                                                                Диваны, кровати, кушетки, шкафы, тумбы,
+                                                                                комоды, столы
+                                                                            </p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="tabs-delivery-table__column">
+                                                                <div data-spoller
+                                                                    class="tabs-delivery-table__title main-button">
+                                                                    <img loading="lazy"
+                                                                        src="img/icons/delivery-icon4.svg" alt="">
+                                                                    Сантехника
+                                                                    <svg aria-hidden="true" width="8" height="5">
+                                                                        <use xlink:href="img/sprite.svg#arrow1"></use>
+                                                                    </svg>
+                                                                </div>
+                                                                <div class="tabs-delivery-table__body">
+                                                                    <div class="tabs-delivery-table__titles">
+                                                                        <div class="tabs-delivery-table__title">
+                                                                            <p class="mob">
+                                                                                <span>до 200
+                                                                                    кг</span>
+                                                                                <strong>Бесплатно</strong>
+                                                                            </p>
+                                                                            <p>
+                                                                                Смесители, аксессуары для ванной комнаты
+                                                                            </p>
+                                                                        </div>
+                                                                        <div class="tabs-delivery-table__title">
+                                                                            <p class="mob">
+                                                                                <span>10–70 кг</span>
+                                                                                <strong>600 ₽</strong>
+                                                                            </p>
+                                                                            <p>
+                                                                                Раковины, полотенцесушители, души,
+                                                                                навесные шкафы, унитазы
+                                                                            </p>
+                                                                        </div>
+                                                                        <div class="tabs-delivery-table__title">
+                                                                            <p class="mob">
+                                                                                <span>70–140 кг</span>
+                                                                                <strong>600 ₽</strong>
+                                                                            </p>
+                                                                            <p>
+                                                                                Ванны, душевые кабины, комплекты мебели
+                                                                                и другой крупногабаритный товар
+                                                                            </p>
+                                                                        </div>
+                                                                        <div class="tabs-delivery-table__title">
+                                                                            <p class="mob">
+                                                                                <span>от 140 кг</span>
+                                                                                <strong>индивидуально</strong>
+                                                                            </p>
+                                                                            <p>
+                                                                                Ванны, душевые кабины, комплекты мебели
+                                                                                и другой крупногабаритный товар
+                                                                            </p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="tabs-delivery-table__column">
+                                                                <div data-spoller
+                                                                    class="tabs-delivery-table__title main-button">
+                                                                    <img loading="lazy"
+                                                                        src="img/icons/delivery-icon5.svg" alt="">
+                                                                    Отопление
+                                                                    <svg aria-hidden="true" width="8" height="5">
+                                                                        <use xlink:href="img/sprite.svg#arrow1"></use>
+                                                                    </svg>
+                                                                </div>
+                                                                <div class="tabs-delivery-table__body">
+                                                                    <div class="tabs-delivery-table__titles">
+                                                                        <div class="tabs-delivery-table__title">
+                                                                            <p class="mob">
+                                                                                <span>до 200
+                                                                                    кг</span>
+                                                                                <strong>Бесплатно</strong>
+                                                                            </p>
+                                                                            <p>
+                                                                                Бризеры, тёплый пол, обогреватели и
+                                                                                прочие товары
+                                                                            </p>
+                                                                        </div>
+                                                                        <div class="tabs-delivery-table__title">
+                                                                            <p class="mob">
+                                                                                <span>10–70 кг</span>
+                                                                                <strong>600 ₽</strong>
+                                                                            </p>
+                                                                            <p>
+                                                                                Радиаторы, конвекторы, водонагреватели и
+                                                                                прочие товары
+                                                                            </p>
+                                                                        </div>
+                                                                        <div class="tabs-delivery-table__title">
+                                                                            <p class="mob">
+                                                                                <span>70–140 кг</span>
+                                                                                <strong>600 ₽</strong>
+                                                                            </p>
+                                                                            <p>
+                                                                                Котлы, камины, баки, печи и другой
+                                                                                крупногабаритный товар
+                                                                            </p>
+                                                                        </div>
+                                                                        <div class="tabs-delivery-table__title">
+                                                                            <p class="mob">
+                                                                                <span>от 140 кг</span>
+                                                                                <strong>индивидуально</strong>
+                                                                            </p>
+                                                                            <p>
+                                                                                Котлы, камины, баки, печи и другой
+                                                                                крупногабаритный товар
+                                                                            </p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="tabs-delivery-descr__column">
+                                                        <div class="tabs-delivery-descr__titles">
+                                                            <div class="tabs-delivery-descr__title descr-title2">
+                                                                Плитка и напольные покрытия
+                                                            </div>
+                                                        </div>
+                                                        <div data-spollers="992,max"
+                                                            class="tabs-delivery-table tabs-delivery-table2">
+                                                            <div class="tabs-delivery-table__column main-column">
+                                                                <div class="tabs-delivery-table__title main-title">
+                                                                    Вес партии
+                                                                </div>
+                                                                <div class="tabs-delivery-table__body">
+                                                                    <div class="tabs-delivery-table__titles">
+                                                                        <div class="tabs-delivery-table__title">
+                                                                            До 200 кг
+                                                                            <span>600 ₽ + 100 ₽/этаж</span>
+                                                                        </div>
+                                                                        <div class="tabs-delivery-table__title">
+                                                                            до 700 кг
+                                                                            <span>2 500 ₽ + 150 ₽/этаж</span>
+                                                                        </div>
+                                                                        <div class="tabs-delivery-table__title">
+                                                                            от 1 100 кг
+                                                                            <span>индивидуально</span>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="tabs-delivery-table__column">
+                                                                <div data-spoller
+                                                                    class="tabs-delivery-table__title main-button">
+                                                                    <img loading="lazy"
+                                                                        src="img/icons/delivery-icon6.svg" alt="">
+                                                                    Плитка и напольные покрытия
+                                                                    <svg aria-hidden="true" width="8" height="5">
+                                                                        <use xlink:href="img/sprite.svg#arrow1"></use>
+                                                                    </svg>
+                                                                </div>
+                                                                <div class="tabs-delivery-table__body">
+                                                                    <div class="tabs-delivery-table__text">
+                                                                        У плитки своя шкала по весу:
+                                                                    </div>
+                                                                    <div class="tabs-delivery-table__titles">
+                                                                        <div class="tabs-delivery-table__title">
+                                                                            <p class="mob">
+                                                                                <span>до 200 кг</span>
+                                                                                <strong>600 ₽ + 100 ₽/этаж</strong>
+                                                                            </p>
+                                                                            <p class="mob2">
+                                                                                до 200 кг
+                                                                            </p>
+                                                                        </div>
+                                                                        <div class="tabs-delivery-table__title">
+                                                                            <p class="mob">
+                                                                                <span>до 700 кг</span>
+                                                                                <strong>2 500 ₽ + 150 ₽/этаж</strong>
+                                                                            </p>
+                                                                            <p class="mob2">
+                                                                                до 700 кг
+                                                                            </p>
+                                                                        </div>
+                                                                        <div class="tabs-delivery-table__title">
+                                                                            <p class="mob">
+                                                                                <span>от 1 100 кг</span>
+                                                                                <strong>индивидуально</strong>
+                                                                            </p>
+                                                                            <p class="mob2">
+                                                                                от 1 100 кг
+                                                                            </p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="tabs-delivery-descr__column">
+                                                        <div class="tabs-delivery-descr__text">
+                                                            <p>
+                                                                Для выгрузки товара проезд для грузового транспорта к
+                                                                дому или объекту
+                                                                должен быть свободным. Если подъехать на территорию не
+                                                                получится —
+                                                                возможность оказания услуги и её стоимость
+                                                                согласовываются
+                                                                индивидуально.
+                                                            </p>
+                                                            <p>
+                                                                Если парковка платная — парковочное место оплачивает
+                                                                клиент.
+                                                            </p>
+                                                            <p>
+                                                                Подъём не осуществляется в частных домах и двухуровневых
+                                                                квартирах, а
+                                                                также по сложным, неосвещённым, узким и нестандартным
+                                                                лестничным
+                                                                пролётам. Если клиент заранее не предупредил об
+                                                                отсутствии
+                                                                беспрепятственной зоны для выгрузки — повторный выезд
+                                                                оплачивается
+                                                                повторно.
+                                                            </p>
+                                                            <p>
+                                                                При отказе покупателя от заказа оказанные услуги подъёма
+                                                                оплачиваются в
+                                                                полном объёме.
+                                                            </p>
+                                                            <p>
+                                                                Рекомендуем до подъёма осмотреть товар.
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </main>
+    </div>
+    {% include 'blocks/scripts.njk' %}
+</body>
+
+</html>
